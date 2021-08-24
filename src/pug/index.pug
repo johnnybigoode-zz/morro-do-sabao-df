@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Full Width Pics - Start Bootstrap Template
+        title ASSMOSA - Morro do Sabão
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -21,11 +21,11 @@ html(lang='en')
         // Responsive navbar
         nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
             .container
-                a.navbar-brand(href='#!') Start Bootstrap
+                a.navbar-brand(href='#!') Morro do Sabão
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
-                    ul.navbar-nav.ms-auto.mb-2.mb-lg-0
+                    //ul.navbar-nav.ms-auto.mb-2.mb-lg-0
                         li.nav-item
                             a.nav-link.active(aria-current='page', href='#!') Home
                         li.nav-item
@@ -34,24 +34,25 @@ html(lang='en')
                             a.nav-link(href='#!') Contact
 
         // Header - set the background image for the header in the line below
-        header.py-5.bg-image-full(style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');")
+        header.py-5.bg-image-full(style="background-image: url('assets/header-fb.jpg');")
             .text-center.my-5
-                img.img-fluid.rounded-circle.mb-4(src='https://dummyimage.com/150x150/6c757d/dee2e6.jpg', alt='...')
-                h1.text-white.fs-3.fw-bolder Full Width Pics
-                p.text-white-50.mb-0 Landing Page Template
+                img.img-fluid.mb-4(src='assets/logo-moradia-digna.jpg', alt='...')
+                h1.text-white.fs-3.fw-bolder Moradia Digna
+                p.text-white-50.mb-0 Morro do Sabão
 
         // Content section
         section.py-5
             .container.my-5
                 .row.justify-content-center
                     .col-lg-6
-                        h2 Full Width Backgrounds
-                        p.lead A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.
+                        h2 Parque Gatumé
+                        p.lead Mais informações ver o grupo de Facebook Comunidade Morro do Sabão
+                        a.button(href='http:////www.facebook.com/morrodosabaodf') Link
                         p.mb-0
-                            | The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.
+                            | Detalhe da imagem
 
         // Image element - set the background image for the header in the line below
-        .py-5.bg-image-full(style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');")
+        .py-5.bg-image-full(style="background-image: url('https://source.unsplash.com/random/1200x800');")
             // Put anything you want here! The spacer below with inline CSS is just for demo purposes!
             div(style='height: 20rem;')
 
@@ -60,15 +61,16 @@ html(lang='en')
             .container.my-5
                 .row.justify-content-center
                     .col-lg-6
-                        h2 Engaging Background Images
-                        p.lead The background images used in this template are sourced from Unsplash and are open source and free to use.
+                        h2 Sessão com mais texto
+                        p.lead Sub título para colocar mais informações
                         p.mb-0
-                            | I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.
+                            | Texto mais extenso com descrição e mais detalhes
 
         // Footer
         footer.py-5.bg-dark
             .container
-                p.m-0.text-center.text-white Copyright &copy; Your Website 2021
+                p.m-0.text-center.text-white CC0 &copy; dione bigode 2021
+                p.m-0.text-center.text-white Logo &copy; D3Images / Freepik license
             
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')
